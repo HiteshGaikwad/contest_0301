@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adding Employees</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<style>
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>New Employees</h2>
+    <form id="employeeForm">
+
+        <div class="inpt_container">
+            <span class="inpt">
+                <label for="nameInput">Enter Name</label>
+            <input type="text" id="nameInput" placeholder="Name" >
+            </span>
+            <span class="inpt">
+                <label for="professionInput">Enter Profession</label>
+            <input type="text" id="professionInput" placeholder="Profession" >
+            </span>
+            <span class="inpt">
+                <label for="ageInput">Enter Age</label>
+            <input type="number" id="ageInput" placeholder="Age" >
+            </span>
+        </div>
+        <button type="submit" class="subimt_btn">Add User</button>
+    </form>
+
+    <div id="message"></div>
+
+    <h2>Added Employees</h2>
+    <div id="employeeList">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

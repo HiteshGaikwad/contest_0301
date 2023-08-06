@@ -1,0 +1,12 @@
+.heading {
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin: 5px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
